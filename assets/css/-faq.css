@@ -1,0 +1,95 @@
+.faq-section-bg {
+  background-image: url("../img/faq-background.png");
+  /* min-height: auto; */
+  background-position: right;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.faq-section-wrapper .faq-right-side {
+  box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);
+  padding: 50px;
+  min-height: 300px;
+}
+
+.faq-right-side h6 {
+  font-size: 16px;
+  margin-top: 70px;
+}
+.faq-right-side h6 i {
+  font-size: 32px;
+  margin-left: 16px;
+  vertical-align: -5px;
+  color: rgb(90, 90, 241);
+  /* font-weight: bold; */
+}
+
+.faq-section-wrapper .faq-right-side p {
+  font-size: 14px;
+  color: #adadad;
+  margin: 10px 47px 0 0;
+}
+
+.faq-section-wrapper .faq-left-side .tabs {
+  overflow: hidden;
+  box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05);
+}
+
+.faq-section-wrapper .faq-left-side .tab {
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.faq-section-wrapper .faq-left-side .tab-label {
+  padding: 10px;
+  background-color: rgb(97, 97, 235);
+  width: 100%;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  transition: 1s ease;
+}
+
+.faq-section-wrapper .faq-left-side .tab-label:hover {
+  background-color: rgb(68, 68, 228);
+}
+
+.faq-section-wrapper .faq-left-side .tab-label::after {
+  content: "\276f";
+  /* width: 16px;
+  height: 16px; */
+  text-align: center;
+  float: left;
+  /* background-color: #000; */
+  transition: all 0.4s;
+  padding: 2px 0 0 0;
+}
+
+.faq-section-wrapper .faq-left-side .tab-content {
+  height: 0;
+  background-color: #fff;
+  transition: all 0.5s ease;
+  /* padding: 10px; */
+  font-size: 16px;
+  color: #525252;
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content {
+  height: 100px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.faq-section-wrapper .faq-left-side input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+}
+
+.faq-section-wrapper .faq-left-side input {
+  display: none;
+}
+
+.faq-section-wrapper .faq-left-side {
+  /* box-shadow: 1px 5px 15px 2px rgba(68, 102, 242, 0.05); */
+  /* padding: 50px; */
+  margin-top: 80px;
+}

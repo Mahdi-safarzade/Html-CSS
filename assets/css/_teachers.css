@@ -1,0 +1,76 @@
+.teaceher-section-wrapper {
+  background-image: url("../img/color.png");
+  height: 400px;
+  background-attachment: fixed;
+  /* position: fixed; */
+}
+
+.techers-intro {
+  background-color: rgba(255, 255, 255, 0.75);
+  top: 95%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  box-shadow: -1px 3px 7px 1px #e6e6e6;
+  border-radius: 2px;
+}
+.techers-intro span {
+  background-color: orange;
+  padding: 0 20px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.techers-intro h3 {
+  margin: 30px 0 80px 0;
+}
+.techers-intro a {
+  border: 2px solid orange;
+  margin-bottom: 10px;
+  width: 100px;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2px;
+  display: inline-block;
+  transition: 0.5s ease;
+  font-size: 16px;
+}
+
+.techers-intro a:hover {
+  background-color: orange;
+  color: #fff;
+  box-shadow:5px 2px 12px 2px #bbbbbb;
+  border-radius: 0px 10px 0px 10px ;
+}
+
+@media screen and(max-width:700px) {
+  .techers-intro h3 {
+    margin: 50px 0 40px 0;
+    height: 220px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .techers-intro {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 40px;
+    height: 220px;
+  }
+}
+
+/* @media screen and (min-width: 699px and max-width:710px) {
+  .techers-intro {
+    transition: all 0.5 ease;
+    animation: change 3s ease;
+  }
+  @keyframes change {
+    from {
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    to {
+      background-color: #fff;
+    }
+  } */
+
